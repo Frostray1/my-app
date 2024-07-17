@@ -1,12 +1,9 @@
 import React from 'react';
-import AppLayout from './AppLayout';
 
 const Settings: React.FC = () => {
   return (
-    <AppLayout>
+    // Здесь будет основная информация (или не будет)
       <h1>Settings</h1>
-      {/* Здесь будет основная информация */}
-    </AppLayout>
   );
 };
 

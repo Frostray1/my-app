@@ -1,12 +1,9 @@
 import React from 'react';
-import AppLayout from './AppLayout';
 
 const Dashboard: React.FC = () => {
   return (
-    <AppLayout>
+    // Здесь будет основная информация
       <h1>Dashboard</h1>
-      {/* Здесь будет основная информация */}
-    </AppLayout>
   );
 };
 
