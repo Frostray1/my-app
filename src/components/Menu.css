@@ -1,0 +1,27 @@
+.site-layout-background {
+    background: #fff;
+    padding: 24px;
+    margin: 0;
+    min-height: 280px;
+}
+
+.sider {
+    background:  #fff;; /* Стандартный цвет для бокового меню Ant Design */
+}
+
+.ant-menu {
+    background:  #fff;; /* Цвет фона меню */
+}
+
+.ant-menu-item {
+    color: #fff; /* Цвет текста */
+}
+
+.ant-menu-item-selected {
+    background-color: #1890ff !important; /* Цвет выделенного элемента меню */
+    color: #fff !important;
+}
+
+.ant-layout-sider-children ul{
+    padding-top: 64px;
+}

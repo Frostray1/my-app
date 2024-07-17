@@ -1,0 +1,32 @@
+.login-container {
+    max-width: 300px;
+    margin: auto;
+    padding: 50px 30px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.full-width-button {
+    width: 100%;
+}
+
+.ant-form-item {
+    margin-bottom: 16px;
+}
+
+.ant-input-affix-wrapper {
+    border-radius: 5px;
+}
+
+.ant-btn-primary {
+    border-radius: 5px;
+    background: #1890ff;
+    border-color: #1890ff;
+}
+
+.ant-btn-primary:hover {
+    background: #40a9ff;
+    border-color: #40a9ff;
+}
