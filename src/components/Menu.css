@@ -1,16 +1,26 @@
-.site-layout-background {
-    background: #fff;
-    padding: 24px;
-    margin: 0;
-    min-height: 280px;
-}
+
 
 .sider {
-    background:  #fff;; /* Стандартный цвет для бокового меню Ant Design */
+    background: rgb(245,246,250) !important;
+}
+
+.sider h1{
+    background: rgb(245,246,250) !important;
+    text-align: center;
+
+}
+
+.ant-layout-sider{
+    background: rgb(245,246,250) !important;
+
+
+
 }
 
 .ant-menu {
-    background:  #fff;; /* Цвет фона меню */
+    background: rgb(245,246,250) !important;
+    border-right: 1px solid rgb(234, 236, 243) !important;
+    height: auto !important;
 }
 
 .ant-menu-item {
@@ -18,10 +28,10 @@
 }
 
 .ant-menu-item-selected {
-    background-color: #1890ff !important; /* Цвет выделенного элемента меню */
+    background-color: rgb(157, 159, 164) !important; /* Цвет выделенного элемента меню */
     color: #fff !important;
 }
 
 .ant-layout-sider-children ul{
-    padding-top: 64px;
+    padding-top: 20px;
 }

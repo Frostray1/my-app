@@ -11,7 +11,7 @@ const LoginForm: React.FC = () => {
     const onFinish = async (values: { username: string, password: string }) => {
         try {
             await login(values.username, values.password);
-            navigate('/dashboard');
+            navigate('/clients');
         } catch (error) {
             message.error('Invalid credentials');
         }
@@ -19,6 +19,7 @@ const LoginForm: React.FC = () => {
 
     return (
         <div className="login-container">
+            <h1>DEMO CRM</h1>
             <Form
                 name="login"
                 initialValues={{ remember: true }}

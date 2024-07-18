@@ -5,8 +5,10 @@ import Login from '../pages/Login';
 import ProtectedRoute from '../components/ProtectedRoute';
 import AppLayout from '../components/AppLayout';
 
-const Dashboard = lazy(() => import('../components/Dashboard'));
+const Dashboard = lazy(() => import('../pages/Dashboard'));
 const Settings = lazy(() => import('../components/Settings'));
+const Orders = lazy(() => import('../pages/Orders'));
+
 
 export const router = createBrowserRouter([
   {
@@ -23,7 +25,7 @@ export const router = createBrowserRouter([
     children: [
 
       {
-        path: '/dashboard',
+        path: '/clients',
         element: (
           <ProtectedRoute>
             <Suspense fallback="loading...">
@@ -38,6 +40,16 @@ export const router = createBrowserRouter([
           <ProtectedRoute>
             <Suspense fallback="loading...">
               <Settings />
+            </Suspense>
+          </ProtectedRoute>
+        )
+      },
+      {
+        path: '/orders',
+        element: (
+          <ProtectedRoute>
+            <Suspense fallback="loading...">
+              <Orders />
             </Suspense>
           </ProtectedRoute>
         )
