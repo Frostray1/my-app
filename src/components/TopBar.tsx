@@ -46,7 +46,7 @@ const TopBar: React.FC = () => {
       <Dropdown menu={{ items: userMenuItems }}  trigger={['click']}>
         <div className="user-profile">
           <Avatar icon={<UserOutlined />} />
-          <span className="username">{'admin'}</span> {/* Использование метода toUpperCase */}
+          <span className="username">{Module.mylibrary.toUpperCase('admin')}</span> {/* Использование метода toUpperCase */}
         </div>
       </Dropdown>
     </Header>
