@@ -4,6 +4,7 @@ import { UserOutlined, LogoutOutlined } from '@ant-design/icons';
 import { Link, useNavigate } from 'react-router-dom';
 import './TopBar.css';
 import { logout } from '../api/auth';
+import * as Module from 'to-upper-case-mini-js-library'; // Импортируем все объекты
 
 const { Header } = Layout;
 
