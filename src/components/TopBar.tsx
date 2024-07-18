@@ -42,10 +42,10 @@ const TopBar: React.FC = () => {
   return (
     <Header className="header">
       <div className="logo" />
-      <Dropdown menu={{ items: userMenuItems }} trigger={['click']}>
+      <Dropdown menu={{ items: userMenuItems }}  trigger={['click']}>
         <div className="user-profile">
           <Avatar icon={<UserOutlined />} />
-          <span className="username">admin</span>
+          <span className="username">{'admin'}</span> {/* Использование метода toUpperCase */}
         </div>
       </Dropdown>
     </Header>
